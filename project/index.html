@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BongoMart - Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">🛍️ BongoMart</div>
+        <input id="search" class="search" type="search" placeholder="Search products…">
+        <button class="cart-btn" id="openCart">🛒 Cart (<span id="cartCount">0</span>)</button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Best deals, delivered to your door</h1>
+        <p>Fashion, gadgets, home and grocery items at honest prices. Cash on delivery available.</p>
+        <a href="#shop">Shop now</a>
+    </section>
+
+    <!-- PRODUCTS -->
+    <main id="shop">
+        <div class="categories" id="categories"></div>
+        <div class="product-grid" id="productGrid"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>© 2026 BongoMart · Made with HTML, CSS &amp; JavaScript</footer>
+
+    <!-- CART DRAWER -->
+    <div class="overlay" id="overlay"></div>
+    <aside class="drawer" id="drawer">
+        <div class="drawer-header">
+            <span>Your Cart</span>
+            <button id="closeCart" aria-label="Close">×</button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="drawer-footer">
+            <div class="total-row">
+                <span>Total</span>
+                <span id="cartTotal">₹0</span>
+            </div>
+            <button class="primary-btn" id="checkoutBtn">Checkout</button>
+        </div>
+    </aside>
+
+    <!-- CHECKOUT MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-box" id="modalBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
