@@ -1,18 +1,18 @@
 // /* PRODUCT DATA
    
 var PRODUCTS = [
-    { id: 1,  name: "Cotton Panjabi",       category: "Fashion", price: 899,  image: "images/panjabi.jpg"},
-    { id: 2,  name: "Sports Sneakers",      category: "Fashion", price: 1499, image: "images/sneakers.jpg" },
-    { id: 3,  name: "Leather Wallet",       category: "Fashion", price: 449,  image: "images/wallet.jpg" },
-    { id: 4,  name: "Wireless Earbuds",     category: "Gadgets", price: 1299, image: "images/earbuds.jpg" },
-    { id: 5,  name: "Smart Watch",          category: "Gadgets", price: 2499, image: "images/smartwatch.jpg" },
-    { id: 6,  name: "Power Bank 10000mAh",  category: "Gadgets", price: 999,  image: "images/powerbank.jpg" },
-    { id: 7,  name: "Ceramic Tea Set",      category: "Home",    price: 749,  image: "images/teaset.jpg" },
-    { id: 8,  name: "Table Lamp",           category: "Home",    price: 599,  image: "images/lamp.jpg" },
-    { id: 9,  name: "Darjeeling Tea 500g",  category: "Grocery", price: 350,  image: "images/tea.jpg" },
-    { id: 10, name: "Mustard Oil 1L",       category: "Grocery", price: 185,  image: "images/mustard-oil.jpg" },
-    { id: 11, name: "Basmati Rice 5kg",     category: "Grocery", price: 520,  image: "images/rice.jpg" },
-    { id: 12, name: "Notebook Set (5)",     category: "Home",    price: 199,  image: "images/notebook.jpg"}
+    { id: 1,  name: "Cotton Panjabi",       category: "Fashion", price: 899,  image: "../images/panjabi.jpg"},
+    { id: 2,  name: "Sports Sneakers",      category: "Fashion", price: 1499, image: "../images/sneakers.jpg" },
+    { id: 3,  name: "Leather Wallet",       category: "Fashion", price: 449,  image: "../images/wallet.jpg" },
+    { id: 4,  name: "Wireless Earbuds",     category: "Gadgets", price: 1299, image: "../images/earbuds.jpg" },
+    { id: 5,  name: "Smart Watch",          category: "Gadgets", price: 2499, image: "../images/smartwatch.jpg" },
+    { id: 6,  name: "Power Bank 10000mAh",  category: "Gadgets", price: 999,  image: "../images/powerbank.jpg" },
+    { id: 7,  name: "Ceramic Tea Set",      category: "Home",    price: 749,  image: "../images/teaset.jpg" },
+    { id: 8,  name: "Table Lamp",           category: "Home",    price: 599,  image: "../images/lamp.jpg" },
+    { id: 9,  name: "Darjeeling Tea 500g",  category: "Grocery", price: 350,  image: "../images/tea.jpg" },
+    { id: 10, name: "Mustard Oil 1L",       category: "Grocery", price: 185,  image: "../images/mustard-oil.jpg" },
+    { id: 11, name: "Basmati Rice 5kg",     category: "Grocery", price: 520,  image: "../images/rice.jpg" },
+    { id: 12, name: "Notebook Set (5)",     category: "Home",    price: 199,  image: "../images/notebook.jpg"}
 ];
 
 /* STATE */
